@@ -1,0 +1,22 @@
+.style {
+    max-width: 100vw;
+    max-height: 100vh; 
+    display: grid;
+    grid-template-rows:minmax(100vw);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .menu {
+    display: grid;
+    grid-template-columns: 15vw 85vw;
+    height: 100%;
+    width: 100%;
+  }
+
+  .home {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+  }
