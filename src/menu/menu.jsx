@@ -16,7 +16,7 @@ export default function Menu() {
     };
   }, []);
   return (
-      <aside className="  inset-0 z-40 bg-neutral-800 backdrop-blur-lg ">
+      <aside className="bg-neutral-900 text-white overflow-hidden  inset-0 z-40  backdrop-blur-lg ">
     <h2 className="hidden lg:flex text-2xl text-blue-300 font-bold mt-6 items-center justify-center">Mood Tracker</h2>
     <ul className='flex hidden lg:flex flex-col h-full pt-16 pb-6 px-6  cursor-pointer'>
        <Link to='/Home'> <li  className='text-xl text-white font-semibold py-3 text-white hover:bg-neutral-700 rounded-lg px-4 mb-2' >

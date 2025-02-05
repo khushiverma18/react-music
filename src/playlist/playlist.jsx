@@ -8,17 +8,17 @@ const Playlist = () => {
   ];
 
   return (
-    <div className="p-6 bg-black h-screen">
-      <div className="flex justify-between items-center mb-6">
-      <div class="flex items-center gap-4">
-      <div class="w-12 h-12 bg-yellow-500/20 rounded-full flex items-center justify-center">
-       <svg class="w-6 h-6 text-yellow-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <div className="p-6 bg-black h-screen min-h-screen p-6 ">
+      <div className="flex items-center justify-between mb-6">
+      <div className="flex items-center gap-4">
+      <div className="w-12 h-12 bg-yellow-500/20 rounded-full flex items-center justify-center">
+       <svg className="w-6 h-6 text-yellow-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                 </div>
                 
-                <div> <h2 className="text-3xl font-bold text-white">Happy Vibes Playlist</h2>
-        <p className="text-white">Songs to boost your mood</p></div> 
+                <div> <h2 className="text-2xl font-bold text-white">Happy Vibes Playlist</h2>
+        <p className="text-neutral-400">Songs to boost your mood</p></div> 
         </div>
         <button class="px-6 py-2 bg-yellow-500/20 hover:bg-yellow-500/30 text-yellow-400 rounded-full flex items-center gap-2 transition-colors">
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

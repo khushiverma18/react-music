@@ -1,5 +1,4 @@
 import React from 'react';
-import Menu from './menu/menu';
 import Home from './home/home';
 import Playlist from './playlist/playlist';
 import Profile from './profile/profile';
